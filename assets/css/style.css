@@ -246,15 +246,17 @@ li {
     position: absolute;
   }
   #main-container {
-    padding-top: 160px;
+    padding-top: 180px;
   }
   nav {
     padding-top:0;
     float: left;
+    margin-bottom: 3%;
+    margin-left: 5%;
   }
   #logo {
-    margin-left: 10%;
     font-size: 7vw;
+    width: 100%;
   }
   .auth-image {
     width: 100%;
@@ -299,10 +301,11 @@ li {
     float: left;
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: 15%;
   }
   #logo {
-    margin-left: 10%;
-    font-size: 4vw;
+    font-size: 7vw;
+    width: 100%;
   }
   .auth-image {
     width: 80%;
@@ -372,6 +375,7 @@ li {
   }
   h1 {
     font-size: 4vw;
+    margin-left:5%;
   }
       /* portfolio */
   .work {
@@ -409,7 +413,7 @@ li {
     padding-right: 5%;
   }
   #logo {
-    margin-left: 1%;
+    margin-left: 0;
     font-size: 3vw;
     width: 275px;
   }
