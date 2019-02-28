@@ -215,6 +215,7 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+    margin-left: 45%;
   }
 
   .footerdata {
@@ -231,7 +232,285 @@ body {
     border-top-style: solid;
     border-color: #4aaaa5;
 }
-  
+
+li {
+  list-style-type: none;
+}
+
+                        /* xs */
+@media screen and (max-width: 575px)  {
+  body {
+    font-size: 6vw;
+  }
+  #masthead {
+    position: absolute;
+  }
+  #main-container {
+    padding-top: 160px;
+  }
+  nav {
+    padding-top:0;
+    float: left;
+  }
+  #logo {
+    margin-left: 10%;
+    font-size: 7vw;
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .main-section {
+    margin-bottom: 80px;
+  }
+  .footerdata {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 9vw;
+  }
+      /* portfolio */
+  .work {
+    width: 100%;
+    overflow: visible;
+  }
+      /* contact */
+  ul {
+    padding-left: 0;
+  }
+  input[type=submit] {
+    margin-left: 0;
+  }
+}
+
+                        /* sm */
+@media screen and (max-width: 767px) and (min-width: 576px)  {
+  body {
+    font-size: 4vw;
+  }
+  #masthead {
+    position: absolute;
+  }
+  #main-container {
+    padding-top: 180px;
+  }
+  nav {
+    padding-top:0;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #logo {
+    margin-left: 10%;
+    font-size: 4vw;
+  }
+  .auth-image {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .main-section {
+    margin-bottom: 80px;
+    padding-top: 10px;
+  }
+  .footerdata {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+      /* portfolio */
+  .work {
+    width: 100%;
+    overflow: visible;
+  }
+      /* contact */
+  ul {
+    padding-left: 0;
+  }
+  input[type=submit] {
+    margin-left: 0;
+    font-size: 5vw;
+  }
+}
+
+                        /* md */
+@media screen and (max-width: 991px) and (min-width: 768px)  {
+  body {
+    font-size: 3vw;
+  }
+  #masthead {
+    position: absolute;
+  }
+  #main-container {
+    padding-top: 120px;
+  }
+  nav {
+    padding-top:0;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #logo {
+    margin-left: 5%;
+    font-size: 4vw;
+    width: 300px;
+  }
+  .auth-image {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+  }
+  .main-section {
+    margin-bottom: 80px;
+    padding-top: 10px;
+  }
+  .footerdata {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+      /* portfolio */
+  .work {
+    width: 40%;
+    padding-left:5%;
+    overflow: visible;
+  }
+  .work h3 {
+    width: 87.5%;
+  }
+      /* contact */
+  ul {
+    padding-left: 0;
+  }
+  input[type=submit] {
+    margin-left: 0;
+    font-size: 3vw;
+  }
+}
+
+                        /* lg */
+@media screen and (max-width: 1199px) and (min-width: 992px)  {
+  body {
+    font-size: 2vw;
+  }
+  #masthead {
+    position: absolute;
+  }
+  #main-container {
+    padding-top: 120px;
+  }
+  nav {
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #logo {
+    margin-left: 1%;
+    font-size: 3vw;
+    width: 275px;
+  }
+  .auth-image {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+  }
+  .main-section {
+    margin-bottom: 80px;
+    padding-top: 10px;
+  }
+  .footerdata {
+    font-size: 1vw;
+  }
+  h1 {
+    font-size: 4vw;
+    margin-left: 5%;
+  }
+      /* portfolio */
+  .work {
+    width: 40%;
+    padding-left:5%;
+    overflow: visible;
+  }
+  .work h3 {
+    width: 87.5%;
+  }
+      /* contact */
+  ul {
+    padding-left: 0;
+  }
+  input[type=submit] {
+    margin-left: 0;
+    font-size: 3vw;
+  }
+  form {
+    padding-left: 5%;
+  }
+}
+
+                        /* xl */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 1.5vw;
+  }
+  #masthead {
+    position: absolute;
+  }
+  #main-container {
+    padding-top: 120px;
+  }
+  nav {
+    float: right;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #logo {
+    margin-left: 0;
+    font-size: 2vw;
+    width: 275px;
+  }
+  .auth-image {
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+  }
+  .main-section {
+    margin-bottom: 80px;
+    padding-top: 10px;
+  }
+  .footerdata {
+    font-size: 1vw;
+  }
+  h1 {
+    font-size: 3vw;
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+  }
+      /* portfolio */
+  .work {
+    width: 40%;
+    padding-left:15%;
+    overflow: visible;
+  }
+  .work h3 {
+    width: 62.5%;
+  }
+      /* contact */
+  ul {
+    padding-left: 5%;
+  }
+  input[type=submit] {
+    margin-left: 5%;
+    font-size: 3vw;
+  }
+}
+
 /* @media (min-width: 1400px) {
     body
     {   
