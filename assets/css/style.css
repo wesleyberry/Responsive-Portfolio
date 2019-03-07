@@ -384,6 +384,10 @@ li {
     padding-left:5%;
     overflow: visible;
   }
+  .work:hover {
+    transform: scale(1.1);
+
+  }
   .work h3 {
     width: 87.5%;
   }
