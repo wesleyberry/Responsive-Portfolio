@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/dynamic-style/dynamic-style.png");
+    margin-top: 0;
   }
   
   * {
