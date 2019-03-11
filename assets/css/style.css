@@ -3,8 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    /* background: url("../images/dynamic-style/dynamic-style.png"); */
-    background: blue;
+    background: url("../images/dynamic-style/dynamic-style.png");
+    /* background: blue; */
     margin-top: 0;
   }
   
