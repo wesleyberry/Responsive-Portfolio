@@ -238,6 +238,10 @@ body {
 li {
   list-style-type: none;
 }
+.work:hover {
+  transform: scale(1.1);
+
+}
 
                         /* xs */
 @media screen and (max-width: 575px)  {
@@ -385,10 +389,10 @@ li {
     padding-left:5%;
     overflow: visible;
   }
-  .work:hover {
+  /* .work:hover {
     transform: scale(1.1);
 
-  }
+  } */
   .work h3 {
     width: 87.5%;
   }
