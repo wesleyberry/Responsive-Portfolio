@@ -145,6 +145,7 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    text-align: center;
   }
   
   .work:nth-child(even) {
